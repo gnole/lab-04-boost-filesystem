@@ -1,4 +1,3 @@
-// copyright 2020 typeperfest
 #include <iostream>
 #include <boost/filesystem.hpp>
 #include "directory_parser.hpp"
