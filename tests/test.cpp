@@ -56,26 +56,7 @@ TEST(Example, EmptyTest) {
   std::cout << out_stream.str() << std::endl;
   std::stringstream expected_stream;
   expected_stream <<
-//      "corp1 balance_00000001_20000101.txt\n" << // 1
-//  "corp1 balance_00000001_20010101.txt\n" << // 2
-//      "corp1 balance_00000002_20000102.txt\n" << // 3
-//  "corp1 balance_00000002_20000101.txt\n" << // 4
-//  "corp1 balance_00000001_20010103.txt\n" << // 5
-//  "corp1 balance_00000001_20000103.txt\n" << // 6
-//  "corp1 balance_00000001_20000102.txt\n" << // 7
-//  "corp1 balance_00000003_20000101.txt\n" << // 8
-//  "corp1 balance_00000006_20020102.txt\n" << // 9
-//  "corp2 balance_00000001_20010102.txt\n" << // 10
-//  "corp2 balance_00000004_20010102.txt\n" << // 11
-//  "corp2 balance_00000006_20020105.txt\n" << // 12
-//  "corp2 balance_00000006_20020104.txt\n" << // 13
-//  "corp2 balance_00000001_20010104.txt\n" << // 14
-//  "corp2 balance_00000004_20010103.txt\n" << // 15
-//  "corp2 balance_00000006_20020103.txt\n" << // 16
-//  "corp2 balance_00000004_20010101.txt\n" << // 17
-//  "corp2 balance_00000004_20010104.txt\n" << // 18
-//  "corp2 balance_00000003_20000101.txt\n" << // 19
-      "corp1 balance_00000001_20000101.txt\n" <<
+  "corp1 balance_00000001_20000101.txt\n" <<
   "corp1 balance_00000001_20010101.txt\n" <<
   "corp1 balance_00000002_20000102.txt\n" <<
   "corp1 balance_00000002_20000101.txt\n" <<
