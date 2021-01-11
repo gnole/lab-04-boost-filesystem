@@ -1,10 +1,7 @@
-// Copyright 2018 Your Name <your_email>
-
 #include <directory_parser.hpp>
 #include <map>
 #include <boost/regex.hpp>
 
-// regexp == balance_[0-9]{8}_[0-9]{8}\.txt$
 
 std::ostream& directory_analysis(const boost::filesystem::path& path,
                                  std::ostream& out)
@@ -38,14 +35,10 @@ std::ostream& directory_analysis(const boost::filesystem::path& path,
     }
   }
   out << "printing brokers_info" << std::endl;
-  // int sum = 0;
-  for (const auto& iterator : brokers_info) {
+   for (const auto& iterator : brokers_info) {
     out << "broker:" << iterator.first.first <<" account:"
         << iterator.first.second << " files:" << iterator.second.first
         << " lastdate:" << iterator.second.second << std::endl;
-  //  sum += iterator.second.first;
   }
-  // out << sum << std::endl;
-  // (./main | wc -l) == (sum) is true
   return out;
 }
